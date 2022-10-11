@@ -1,0 +1,129 @@
+.sign_in_page{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+
+}
+
+.log_in{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width:350px;
+    margin:10px 50px;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    padding: 20px 26px;
+    height: auto;
+}
+
+.email_input> input{
+    width: 295px;
+    padding:6px 5px;
+    margin-top: 6px;
+    border:none;
+    outline: 1px solid lightgray;
+    border-radius: 3px;
+}
+
+.email_input> label{
+    font-size: 14px;
+    font-weight: 500;
+}
+
+
+.email_input >button{
+    align-items: center;
+    width: 100%;
+    margin: 15px 0px;
+    padding:6px 10px;
+    background-color: #fccd56;
+    color: #111;
+    border: 1px solid;
+    border-radius: 3px;
+    border-color: #a88734 #9c7e31 #846a29;
+    cursor: pointer;
+}
+
+.email_input{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+}
+
+.amazon_logo{
+    width: 130px;
+    object-fit: contain;
+    margin: 0 20px;
+    margin-top: 6px;
+}
+
+.sign_in_heading{
+    font-size: 26px;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+
+.login_warn{
+    font-size: 12px;
+}
+
+.login_warn > a,details{
+    text-decoration: none;
+    color: rgb(0, 135, 189);
+}
+
+details{
+    margin-top: 23px;
+    font-size: 13px;
+}
+
+details > span{
+    margin-left: 13px;
+    line-height: 2;
+    font-size: 13px;
+}
+
+.new_border{
+    font-size: 13px;
+    color: #111;
+    text-align: center;
+    margin-bottom: 10px;
+    line-height: 0;
+    width: 350px;
+    background-color: transparent;
+    display: block;
+    height: 1px;
+    border-top: 1px solid #e7e7e7;
+    margin-top: 15px;
+    z-index: 1;
+}
+.new_border >p{
+    line-height: 1;
+    font-size: 12px;
+    margin-top: -10px;
+    padding: 0 8px 0 7px;
+    color: #767676;
+    text-align: center;
+    font-weight: 400;
+    z-index: 2;
+    display: inline-block;
+    background-color: #fff;
+}
+
+.btn{
+    align-items: center;
+    width: 350px;
+    margin: 25px 0px;
+    padding:6px 10px;
+    background: #e7e9ec;
+    color: #111;
+    border: 1px solid;
+    border-radius: 3px;
+    border-color: lightgray;
+    cursor: pointer;
+
+}

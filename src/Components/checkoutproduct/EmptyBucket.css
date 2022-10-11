@@ -1,0 +1,61 @@
+.emptybucket{
+    display: flex;
+    margin: 20px;
+    width: auto;
+    background-color: white;
+    padding: 20px;
+    gap: 50px;
+}
+
+.emptybucket >img{
+    width: 400px;
+    object-fit: contain;
+}
+  .emptybucket_div > a{
+    -webkit-text-size-adjust: 100%;
+    font-size: 14px;
+    line-height: 20px;
+    font-family: "Amazon Ember",Arial,sans-serif;
+    box-sizing: border-box;
+    text-decoration: none;
+    color: #007185;
+  }
+
+  .emptybucket_signin{
+      margin-top: 20px;
+      display: flex;
+      gap:10px;
+  }
+
+  .sign_in{
+      cursor: pointer;
+    color: #0F1111;
+    font-size: 16px!important;
+    line-height: 24px!important;
+    border-radius: 5px;
+    border:none;
+    padding: 5px 20px;
+    background-color: rgb(252, 230, 21)
+  }
+
+  .sign_up{
+    cursor: pointer;
+    color: #0F1111;
+    font-size: 16px!important;
+    line-height: 24px!important;
+    border-radius: 5px;
+    border:none;
+    padding: 3px 20px;
+  }
+
+  @media (max-width:440px){
+    .emptybucket{
+     flex-direction: column;
+     align-items: center;
+  }
+  .emptybucket >img{
+    width: 300px;
+    object-fit: contain;
+    
+}
+  }
